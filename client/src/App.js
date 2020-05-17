@@ -1,37 +1,14 @@
 import React from 'react'
 
-class App extends React.Component {
-  state = {
-    bookData: null
-  }
+import BookList from './components/BookList/BookList'
 
-  async componentDidMount() {
-    try {
-      const res = await fetch('/books')
-      const data = await res.json()
-      console.log(data)
-      this.setState({ bookData: data.bookCovers })
-    } catch (e) {
-      console.log(e)
-    }
-  }
-
-  render() {
-    const { bookData } = this.state
-    console.log(bookData)
-    return (
-      <div>
-        <h1>Judge a book by its cover</h1>
-        <ul>
-          {bookData && bookData.map(book => (
-            <li key={book.id}>
-              <img src={book.cover} alt={book.title} />
-            </li>
-          ))}
-        </ul>
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <div data-test="app-component">
+      <h1>Judge a book by its cover</h1>
+      <BookList />
+    </div>
+  )
 }
 
 export default App;
