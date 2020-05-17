@@ -2,7 +2,15 @@
   "bookCovers": [
     {
       "id": 1,
-      "name": "test json"
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "cover": "/covers/hitchhikers-adams.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Neverwhere",
+      "author": "Neil Gaiman",
+      "cover": "/covers/neverwhere-gaiman.jpg"
     }
   ]
 }

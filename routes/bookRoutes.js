@@ -1,7 +1,7 @@
 const bookRoutes = require('express').Router()
 const bookCovers = require('../bookCovers.json')
 
-bookRoutes.get('/test', (req, res) => {
+bookRoutes.get('/', (req, res) => {
   res.json(bookCovers)
 })
 
