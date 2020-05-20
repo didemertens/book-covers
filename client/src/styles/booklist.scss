@@ -1,4 +1,5 @@
 .list__wrapper {
+  margin-top: 3.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,12 +8,21 @@
 
 .list__gallery {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 20vw);
-  grid-gap: 15px;
-  width: 90vw;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 5vh;
+  width: 85vw;
+  &:hover {
+    img {
+      transform: scale(.85);
+    }
+  }
 
   img {
     max-height: 220px;
+    transition: transform .25s ease;
+    &:hover {
+      transform: scale(1.45);
+    }
   }
 }
