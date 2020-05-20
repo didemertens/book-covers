@@ -14,7 +14,7 @@
   width: 85vw;
   &:hover {
     img {
-      transform: scale(.85);
+      transform: scale(.9);
     }
   }
 
@@ -22,7 +22,7 @@
     max-height: 220px;
     transition: transform .25s ease;
     &:hover {
-      transform: scale(1.45);
+      transform: scale(1.35);
     }
   }
 }
