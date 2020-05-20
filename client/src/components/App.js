@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 import 'normalize.css'
-import './styles/main.scss'
+import '../styles/main.scss'
 
-import BookList from './components/BookList/BookList'
+import BookList from './BookList/BookList'
 
 const App = () => {
   const [theme, setTheme] = useState('light')
@@ -21,29 +21,21 @@ const App = () => {
 
   return (
     <div data-test="app-component">
-      <h1>Judge a book by its cover</h1>
-      <button
-        onClick={() => toggleTheme()}
-      >
-        {
-          theme === 'light'
-            ?
-            '🌙'
-            :
-            '☀️'
-        }
-      </button>
+      <div className="app__header">
+        <h1>Judge a book by its cover</h1>
+        <button className="app__button--theme" data-test="theme-btn" onClick={() => toggleTheme()}>
+          {
+            theme === 'light'
+              ?
+              '🌙'
+              :
+              '☀️'
+          }
+        </button>
+      </div>
       <BookList />
-    </div>
+    </div >
   )
 }
 
 export default App
-
-
-
-// if (lang === 'ar') {
-//   style.href = '/css/style-ltr.css';
-// } else {
-//   style.href = '/css/style-rtl.css';
-// }

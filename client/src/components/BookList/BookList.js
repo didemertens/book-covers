@@ -18,13 +18,15 @@ class BookList extends React.Component {
   render() {
     const { bookData } = this.state
     return (
-      <ul>
-        {bookData && bookData.map(book => (
-          <li key={book.id}>
-            <img src={book.cover} alt={book.title} />
-          </li>
-        ))}
-      </ul>
+      <div className="list__wrapper">
+        <div className="list__gallery">
+          {bookData && bookData.map(book => (
+            <div key={book.id}>
+              <img src={book.cover} alt={book.title} />
+            </div>
+          ))}
+        </div>
+      </div>
     )
   }
 }

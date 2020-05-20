@@ -13,4 +13,4 @@ test('renders App component', () => {
   const wrapper = shallow(<App />)
   const appComponent = findByTestAttr(wrapper, 'app-component')
   expect(appComponent.length).toBe(1)
-});
+})

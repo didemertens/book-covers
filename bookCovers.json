@@ -2,15 +2,147 @@
   "bookCovers": [
     {
       "id": 1,
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams",
-      "cover": "/covers/hitchhikers-adams.jpeg"
+      "title": "Pond",
+      "author": "Claire-Louise Bennett",
+      "cover": "/covers/pond-bennett.jpg"
     },
     {
       "id": 2,
-      "title": "Neverwhere",
-      "author": "Neil Gaiman",
-      "cover": "/covers/neverwhere-gaiman.jpg"
+      "title": "Late Migrations: A Natural History of Love and Loss",
+      "author": "Margaret Renkl",
+      "cover": "/covers/migrations-renkl.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Water Cure",
+      "author": "Sophie Mackintosh",
+      "cover": "/covers/watercure-mackintosh.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Freedom is space for the spirit",
+      "author": "Glen Hirshberg",
+      "cover": "/covers/freedomspace-hirshberg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sin Eater",
+      "author": "Megan Campisi",
+      "cover": "/covers/sin-campisi.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Factory",
+      "author": "Hiroko Oyamada",
+      "cover": "/covers/factory-oyamada.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "cover": "/covers/educated-westover.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Afterlives",
+      "author": "Thomas Pierce",
+      "cover": "/covers/afterlives-pierce.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Memory Police",
+      "author": "Yogo Ogawa",
+      "cover": "/covers/memory-ogawa.png"
+    },
+    {
+      "id": 10,
+      "title": "Mothers: Stories",
+      "author": "Chris Power",
+      "cover": "/covers/mother-power.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Picnic Comma Lightning: In Search of a New Reality",
+      "author": "Laurence Scott",
+      "cover": "/covers/picnic-scott.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The Nickel Boys",
+      "author": "Colson Whitehead",
+      "cover": "/covers/nickel-whitehead.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Rag: Stories",
+      "author": "Maryse Meijer",
+      "cover": "/covers/rag-meijer.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Tinfoil Butterfly",
+      "author": "Rachel Eve Moulton",
+      "cover": "/covers/tinfoil-moulton.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Convert",
+      "author": "Stefan Hertmans",
+      "cover": "/covers/convert-hertmans.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Foreign Bodies",
+      "author": "Kimiko Hahn",
+      "cover": "/covers/foreign-hahn.jpg"
+    },
+    {
+      "id": 17,
+      "title": "You Will Never Be Forgotten: Stories",
+      "author": "Mary South",
+      "cover": "/covers/forgotten-south.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Godsend",
+      "author": "John Wray",
+      "cover": "/covers/godsend-wray.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Insomnia",
+      "author": "Marina Benjamin",
+      "cover": "/covers/insomnia-benjamin.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Heating & Cooling: 52 Micro-Memoirs",
+      "author": "Beth Ann Fennelly",
+      "cover": "/covers/heating-fennelly.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Start of Something",
+      "author": "Stuart Dybek",
+      "cover": "/covers/start-dybek.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Dancing with the Tiger",
+      "author": "Lili Wright",
+      "cover": "/covers/dancing-wright.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Witches of America",
+      "author": "Alex Mar",
+      "cover": "/covers/witches-mar.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Flights",
+      "author": "Olga Tokarczuk",
+      "cover": "/covers/flights-tokarczuk.jpg"
     }
   ]
 }
