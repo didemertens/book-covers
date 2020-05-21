@@ -1,14 +1,11 @@
 .app__header {
   width: 100vw;
-  height: 5vw;
+  min-height: 5vw;
   display: flex;
   justify-content: space-between;
 
   h1 {
     margin: auto;
-  }
-
-  button {
   }
 }
 
