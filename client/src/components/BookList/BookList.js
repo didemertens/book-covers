@@ -1,4 +1,5 @@
 import React from 'react'
+import BookItem from '../BookItem/BookItem'
 
 class BookList extends React.Component {
   state = {
@@ -24,11 +25,7 @@ class BookList extends React.Component {
     return (
       <div className="list__wrapper">
         <div className="list__gallery">
-          {bookData && bookData.map(book => (
-            <div key={book.id}>
-              <img src={book.cover} alt={book.title} />
-            </div>
-          ))}
+          {bookData && <BookItem bookData={bookData} />}
         </div>
       </div>
     )
