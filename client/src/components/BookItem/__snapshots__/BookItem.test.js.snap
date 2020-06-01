@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The list of book covers renders the list 1`] = `
+Array [
+  <div>
+    <img
+      alt="Pond"
+      src="/covers/pond-bennett.jpg"
+    />
+  </div>,
+  <div>
+    <img
+      alt="Late Migrations: A Natural History of Love and Loss"
+      src="/covers/migrations-renkl.jpg"
+    />
+  </div>,
+]
+`;
