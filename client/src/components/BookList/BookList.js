@@ -6,6 +6,10 @@ class BookList extends React.Component {
   }
 
   async componentDidMount() {
+    this.getBookCovers()
+  }
+
+  async getBookCovers() {
     try {
       const res = await fetch('/books')
       const data = await res.json()
