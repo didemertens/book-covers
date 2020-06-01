@@ -1,5 +1,6 @@
 import React from 'react'
 import BookItem from '../BookItem/BookItem'
+import { getBookCovers } from './services/GetCovers'
 
 class BookList extends React.Component {
   state = {
@@ -7,13 +8,8 @@ class BookList extends React.Component {
   }
 
   async componentDidMount() {
-    this.getBookCovers()
-  }
-
-  async getBookCovers() {
     try {
-      const res = await fetch('/books')
-      const data = await res.json()
+      const data = await getBookCovers()
       this.setState({ bookData: data.bookCovers })
     } catch (e) {
       console.log(e)
